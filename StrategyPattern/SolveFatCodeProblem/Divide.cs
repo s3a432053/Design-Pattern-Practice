@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyPattern
+namespace StrategyPattern.SolveFatCodeProblem
 {
-    // 乘法策略
-    public class Multyply : IStrategy
+    // 除法策略
+    public class Divide : IStrategy
     {
         public int calculate(int a, int b)
         {
-            return a * b;
+            return a / b;
         }
     }
 }

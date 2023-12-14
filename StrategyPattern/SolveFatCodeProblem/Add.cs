@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StrategyPattern
+﻿namespace StrategyPattern.SolveFatCodeProblem
 {
     // 加法策略
     public class Add : IStrategy

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgePattern
+namespace BridgePattern.CompanyExample.CompanyDocument
 {
     /// <summary>
     /// 公司，對實現部分進行抽象
@@ -13,7 +13,7 @@ namespace BridgePattern
     {
         public string Name { get; set; }
 
-        public Double BaseTime { get; set; }
+        public double BaseTime { get; set; }
 
     }
 }

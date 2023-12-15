@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgePattern
+namespace BridgePattern.CompanyExample.TestDocument
 {
     /// <summary>
     ///測試型別抽象類具體實現，具體實現化角色

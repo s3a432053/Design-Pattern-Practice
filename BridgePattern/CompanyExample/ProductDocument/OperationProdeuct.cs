@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BridgePattern.CompanyExample.CompanyDocument;
+using BridgePattern.CompanyExample.TestDocument;
 
-namespace BridgePattern
+namespace BridgePattern.CompanyExample.ProductDocument
 {
     /// <summary>
     /// 運營系統，擴充套件抽象化角色

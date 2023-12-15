@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BridgePattern.CompanyExample.CompanyDocument;
+using BridgePattern.CompanyExample.TestDocument;
 
-namespace BridgePattern
+
+namespace BridgePattern.CompanyExample.ProductDocument
 {
     /// <summary>
     /// 軟體產品，抽象類
@@ -19,8 +17,8 @@ namespace BridgePattern
         // 使用組合，一個產品外包出去，需要一個公司進行不同測試型別的測試
         public Prodeuct(Company company, TestType testType)
         {
-            this._company = company;
-            this._testType = testType;
+            _company = company;
+            _testType = testType;
         }
 
         public string Name { get; set; }
@@ -28,7 +26,7 @@ namespace BridgePattern
         // 執行實現部分
         public void Run()
         {
-            Console.WriteLine($"{this._company.Name}對產品{Name}進行{this._testType.Name},總共花費時間{this._company.BaseTime + this._testType.RunTime}。");
+            Console.WriteLine($"{_company.Name}對產品{Name}進行{_testType.Name},總共花費時間{_company.BaseTime + _testType.RunTime}。");
             Console.WriteLine("======================================================");
         }
 

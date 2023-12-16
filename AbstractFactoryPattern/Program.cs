@@ -1,4 +1,6 @@
-﻿using AbstractFactoryPattern;
+﻿using AbstractFactoryPattern.FactoryDocument;
+using AbstractFactoryPattern.ProductDocument.AudiProduct;
+using AbstractFactoryPattern.ProductDocument.BMWProduct;
 
 // 實現 SUV 系列工廠
 AbstractFactory factorySUV = new SUVFactory();

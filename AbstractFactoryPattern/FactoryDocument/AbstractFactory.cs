@@ -1,10 +1,12 @@
-﻿using System;
+﻿using AbstractFactoryPattern.ProductDocument.AudiProduct;
+using AbstractFactoryPattern.ProductDocument.BMWProduct;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern
+namespace AbstractFactoryPattern.FactoryDocument
 {
     // 抽象工廠
     public abstract class AbstractFactory

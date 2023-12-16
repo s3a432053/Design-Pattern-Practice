@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryDesignPattern
+﻿namespace FactoryDesignPattern.ProductDocument
 {
     // 繼承 麵包介面 的 吐司
     public class Toast : IBread
@@ -19,7 +13,7 @@ namespace FactoryDesignPattern
         // 設定吐司名稱
         public string GetBreadName()
         {
-            return $"Toast: {this.Name}";
+            return $"Toast: {Name}";
         }
     }
 }

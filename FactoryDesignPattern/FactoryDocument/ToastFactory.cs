@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FactoryDesignPattern.ProductDocument;
 
-namespace FactoryDesignPattern
+namespace FactoryDesignPattern.FactoryDocument
 {
     // 繼承 抽象麵包店 的 吐司工廠
     public class ToastFactory : Bakery

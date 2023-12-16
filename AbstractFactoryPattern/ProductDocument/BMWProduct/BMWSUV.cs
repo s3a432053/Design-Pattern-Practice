@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern
+namespace AbstractFactoryPattern.ProductDocument.BMWProduct
 {
-    // 奧迪 的 SUV
-    public class AudiSUV : Audi
+    // BMW 的 SUV
+    public class BMWSUV : BMW
     {
-        public AudiSUV()
+        public BMWSUV()
         {
             setType("SUV");
         }

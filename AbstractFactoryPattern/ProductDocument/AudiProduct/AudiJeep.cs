@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern
+namespace AbstractFactoryPattern.ProductDocument.AudiProduct
 {
-    // BMW 的 吉普車
-    public class BMWJeep : BMW
+    // 奧迪 的 吉普車
+    public class AudiJeep : Audi
     {
-        public BMWJeep()
+        public AudiJeep()
         {
             setType("Jeep");
         }

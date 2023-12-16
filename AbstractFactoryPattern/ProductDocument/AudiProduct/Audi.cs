@@ -4,31 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern
+namespace AbstractFactoryPattern.ProductDocument.AudiProduct
 {
     // 奧迪 抽象 Class
     public abstract class Audi
     {
 
-        private String brand;
-        private String type;
+        private string brand;
+        private string type;
 
         public Audi()
         {
-            this.brand = "Audi";
+            brand = "Audi";
         }
 
-        public void setType(String type)
+        public void setType(string type)
         {
             this.type = type;
         }
 
-        public String getBrand()
+        public string getBrand()
         {
             return brand;
         }
 
-        public String getType()
+        public string getType()
         {
             return type;
         }

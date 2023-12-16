@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryDesignPattern
+﻿namespace FactoryDesignPattern.ProductDocument
 {
     // 繼承 麵包介面 的 蛋糕
     public class Cake : IBread
@@ -21,12 +15,12 @@ namespace FactoryDesignPattern
         // 取得蛋糕名稱
         public string GetBreadName()
         {
-            return $"Cake: {this.Name}";
+            return $"Cake: {Name}";
         }
         // 取得蛋糕形狀
         public string GetShape()
         {
-            return $"* Cake's shape: {this.Shape}";
+            return $"* Cake's shape: {Shape}";
         }
     }
 }

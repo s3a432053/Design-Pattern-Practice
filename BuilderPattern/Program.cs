@@ -1,7 +1,4 @@
-﻿
-
-
-using BuilderPattern;
+﻿using BuilderPattern.MealExample.MealDocument;
 
 MealBuilder mealBuilder = new MealBuilder();
 

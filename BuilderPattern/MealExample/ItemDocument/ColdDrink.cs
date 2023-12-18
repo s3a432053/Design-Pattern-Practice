@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BuilderPattern.MealExample.PackingDocument;
 
-namespace BuilderPattern
+namespace BuilderPattern.ItemDocument
 {
     public abstract class ColdDrink : Item
     {
